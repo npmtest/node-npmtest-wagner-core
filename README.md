@@ -1,6 +1,6 @@
 # npmtest-wagner-core
 
-#### test coverage for  [wagner-core (v0.2.0)](https://github.com/vkarpov15/wagner-core#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-wagner-core.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-wagner-core) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-wagner-core.svg)](https://travis-ci.org/npmtest/node-npmtest-wagner-core)
+#### basic test coverage for  [wagner-core (v0.2.0)](https://github.com/vkarpov15/wagner-core#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-wagner-core.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-wagner-core) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-wagner-core.svg)](https://travis-ci.org/npmtest/node-npmtest-wagner-core)
 
 #### Dependency injector and DI-based async framework for writing modular, durable server code.
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-wagner-core/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-wagner-core/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-wagner-core/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-wagner-core/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-wagner-core/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-wagner-core/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-wagner-core/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-wagner-core/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-wagner-core/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-wagner-core/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-wagner-core/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-wagner-core/build/coverage.html/index.html)
 
@@ -81,7 +81,8 @@
         "coverage": "istanbul cover ./node_modules/mocha/bin/_mocha -- -R spec ./test/*",
         "test": "mocha ./test/*.test.js"
     },
-    "version": "0.2.0"
+    "version": "0.2.0",
+    "bin": {}
 }
 ```
 
